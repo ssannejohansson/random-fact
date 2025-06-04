@@ -1,0 +1,73 @@
+
+
+.api {
+    padding-top: 50px;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    gap: 50px;
+}
+
+.button-container {
+    width: 600px;
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+img {
+    cursor: pointer;
+}
+
+.message {
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
+  height: 45px; 
+  width: 390px;
+  background-color: #d8cec6;
+  position: relative;
+}
+
+.message:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  bottom: 25px;
+  left: -7px;
+  height: 20px;
+  width: 20px;
+  background: #d8cec6;
+  border-bottom-right-radius: 15px;
+}
+.message:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 25px;
+  left: -10px;
+  width: 10px;
+  height: 20px;
+  background: white;
+  border-bottom-right-radius: 10px;
+}
+
+.button-text {
+    padding-left: 20px;
+    padding-right: 20px; 
+    font-size: 16px; 
+}
+
+.fact-container {
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.fact {
+    font-size: 30px; 
+    text-align: center;
+}
